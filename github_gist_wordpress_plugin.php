@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: GitHub Gist Wordpress Plugin 
-Plugin URI: http://owenou.com
+Plugin URI: http://wordpress.org/extend/plugins/github-gist
 Description: GitHub Gist Wordpress Plugin allows you to embed GitHub Gists from http://gist.github.com/ in a post or page.
 Usage: fill in the id and file attributes in the [gist] tag:
 
