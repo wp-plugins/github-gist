@@ -47,5 +47,5 @@ View the revision log from here [http://plugins.trac.wordpress.org/log/github-gi
 
 == Screenshots ==
 
-![With JavaScript On](js_enabled.png "With JavaScript On")
-![With JavaScript Off](js_disabled.png "With JavaScript Off")
+![With JavaScript On](/trunk/js_enabled.png "With JavaScript On")
+![With JavaScript Off](/trunk/js_disabled.png "With JavaScript Off")
