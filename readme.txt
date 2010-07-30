@@ -39,7 +39,7 @@ The [gist] tag also expands the content of the embedded Gist and wraps it with "
 = 1.0 =
 * quote a Gist with id and file attribute.
 * quote a Gist with the embedded JavaScript code.
-* expand a Gist's content and wrap it with <code>
+* expand a Gist's content and wrap it with <code><code></code>
 
 == Upgrade Notice ==
 
