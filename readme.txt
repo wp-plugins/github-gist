@@ -55,5 +55,5 @@ View the revision log from here [http://plugins.trac.wordpress.org/log/github-gi
 
 ![With JavaScript Off][2]
 
-[1]: http://plugins.svn.wordpress.org/github-gist/trunk/js_enabled.png "With JavaScript On"
-[2]: http://plugins.svn.wordpress.org/github-gist/trunk/js_disabled.png "With JavaScript Off"
+[1]: /trunk/js_enabled.png "With JavaScript On"
+[2]: /trunk/js_disabled.png "With JavaScript Off"
