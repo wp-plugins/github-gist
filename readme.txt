@@ -18,9 +18,9 @@ or
 
 copy the embedding JavaScript code from GitHub and directly paste it in the body of the [gist] tag:
 
-[gist]<script src="http://gist.github.com/447298.js?file=github_gist_wordpress_plugin_test.txt"></script>[/gist].
+[gist]<code><script src="http://gist.github.com/447298.js?file=github_gist_wordpress_plugin_test.txt"></script></code>[/gist].
 
-The [gist] tag also expands the content of the embedded Gist and wraps it with "<noscript><code><pre>content</pre></code></noscript>" so that search engine spiders, users with javascript disabled and users reading your blog through RSS will still see your code in a blog entry.
+The [gist] tag also expands the content of the embedded Gist and wraps it with "<code><noscript><code><pre>content</pre></code></noscript></code>" so that search engine spiders, users with javascript disabled and users reading your blog through RSS will still see your code in a blog entry.
 
 == Installation ==
 
@@ -40,3 +40,7 @@ The [gist] tag also expands the content of the embedded Gist and wraps it with "
 * quote a Gist with id and file attribute.
 * quote a Gist with the embedded JavaScript code.
 * expand a Gist's content and wrpa it with <code>
+
+== Upgrade Notice ==
+
+View the revision log from here [http://plugins.trac.wordpress.org/log/github-gist/](http://plugins.trac.wordpress.org/log/github-gist/)
