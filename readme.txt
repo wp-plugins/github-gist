@@ -47,8 +47,6 @@ View the revision log from here [http://plugins.trac.wordpress.org/log/github-gi
 
 == Screenshots ==
 
-== Screenshots ==
-
 1. With JavaScript On
 ![With JavaScript On](http://plugins.svn.wordpress.org/github-gist/trunk//js_enabled.png "With JavaScript On")
 
