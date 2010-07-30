@@ -1,14 +1,18 @@
 <?php
 /*
 Plugin Name: GitHub Gist Wordpress Plugin 
-Plugin URI: http://www.entropytheblog.com/blog/2008/12/wordpress-github-gist-shortcode-plugin/
-Description: Being able to quote a Gist from GitHub http://gist.github.com/.
-Usage: quoting by id and file name: 
-       [gist id=447298 file=github_gist_wordpress_plugin_test.txt] 
-       or
-       pasting the embedding JavaScript code: 
-       [gist]<script src="http://gist.github.com/447298.js?file=github_gist_wordpress_plugin_test.txt"></script>[/gist]
-Version: 0.1 
+Plugin URI: http://owenou.com
+Description: GitHub Gist Wordpress Plugin allows you to embed GitHub Gists from http://gist.github.com/ in a post or page.
+Usage: fill in the id and file attributes in the [gist] tag:
+
+[gist id=447298 file=github_gist_wordpress_plugin_test.txt]
+
+or
+
+copy the embedding JavaScript code from GitHub and directly paste it in the body of the [gist] tag:
+
+[gist]<script src="http://gist.github.com/447298.js?file=github_gist_wordpress_plugin_test.txt"></script>[/gist].
+Version: 1.0 
 Author: Jingwen Owen Ou 
 Author URI: http://owenou.com
 
