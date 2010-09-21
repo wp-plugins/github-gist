@@ -58,7 +58,7 @@ function gist_raw($id, $file) {
 }
 
 function gist_raw_html($gist_raw) {
-	return "<noscript><code><pre style='overflow:auto;margin:0;padding:0;border:1px solid #DDD;'>".htmlentities($gist_raw)."</pre></code></noscript>";
+	return "<div style='margin-bottom:1em;padding:0;border:1px solid #DDD;'><noscript><code><pre style='overflow:auto;margin:0;padding:0;'>".htmlentities($gist_raw)."</pre></code></noscript></div>";
 }
 
 function gist($atts, $content = null) {
