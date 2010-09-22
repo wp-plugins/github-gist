@@ -12,7 +12,7 @@ or
 copy the embedding JavaScript code from GitHub and directly paste it in the body of the [gist] tag:
 
 [gist]<script src="http://gist.github.com/447298.js?file=github_gist_wordpress_plugin_test.txt"></script>[/gist].
-Version: 1.0 
+Version: 1.1 
 Author: Jingwen Owen Ou 
 Author URI: http://owenou.com
 
@@ -34,12 +34,15 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
 define("REGEXP_GIST_URL","\"http:\/\/gist.github.com\/(.+)\.js\?file=(.+)\"");
+define("GITHUB_LINK","<a href=\\\"http://github.com\\\">GitHub<\/a>");
+define("GITHUB_GIST_WORDPRESS_PLUGIN_LINK","<a href=\\\"http://wordpress.org/extend/plugins/github-gist/\\\">GitHub Gist WordPress Plugin<\/a>");
 
 function gist_script($id, $file) {
-	$script =  "<script src=\"http://gist.github.com/".trim($id).".js";
-	$script = $script."?file=".trim($file);
-	$script = $script."\"></script>";
-	return $script;
+	$script_url = "http://gist.github.com/".trim($id).".js";
+	$script_url = $script_url."?file=".trim($file);
+	$script = get_content_from_url($script_url);
+	$script = add_branding($script);
+	return "<script>".$script."</script>";
 }
 
 function get_content_from_url($url) {
@@ -55,6 +58,10 @@ function get_content_from_url($url) {
 function gist_raw($id, $file) {
 	$request = "http://gist.github.com/raw/".$id."/".$file;
 	return get_content_from_url($request);
+}
+
+function add_branding($gist) {
+	return str_replace(GITHUB_LINK, GITHUB_GIST_WORDPRESS_PLUGIN_LINK, $gist);
 }
 
 function gist_raw_html($gist_raw) {
