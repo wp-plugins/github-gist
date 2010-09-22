@@ -41,6 +41,10 @@ The [gist] tag also expands the content of the embedded Gist and wraps it with "
 * quote a Gist with the embedded JavaScript code.
 * expand a Gist's content and wrap it with <code><code></code>
 
+= 1.1 =
+* fixed margin of the display when JavaScript is disabled.
+* added branding information.
+
 == Upgrade Notice ==
 
 View the revision log from here [http://plugins.trac.wordpress.org/log/github-gist/](http://plugins.trac.wordpress.org/log/github-gist/)
